@@ -5,7 +5,7 @@ class BaseAsset extends \yii\web\AssetBundle
 {
     public function init()
     {
-        $this->sourcePath = __DIR__ . '/assets';
+        $this->sourcePath = __DIR__;
     }
     public $depends = [
         'kilyakus\fonts\FontAsset',
