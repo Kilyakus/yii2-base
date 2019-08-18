@@ -7,9 +7,6 @@ class BaseAsset extends \yii\web\AssetBundle
     {
         $this->sourcePath = __DIR__ . '/assets';
     }
-    public $css = [
-        'css/fonts.css',
-    ];
     public $depends = [
         'kilyakus\fonts\FontAsset',
         'kilyakus\toastr\ToastrAsset'
