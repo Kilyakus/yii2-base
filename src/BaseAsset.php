@@ -10,8 +10,8 @@ class BaseAsset extends \yii\web\AssetBundle
     public $js = [
         'jquery/dist/jquery.js',
         'bootstrap/dist/js/bootstrap.min.js',
-        'tooltip.js/dist/umd/tooltip.min.js',
         'popper.js/dist/umd/popper.js',
+        'tooltip.js/dist/umd/tooltip.min.js',
     ];
 
     public $depends = [
