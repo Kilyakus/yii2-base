@@ -13,7 +13,8 @@
         "yiisoft/yii2": ">=2.0.0",
         "kilyakus/yii2-fonts": "dev-master",
         "kilyakus/yii2-toastr": "dev-master",
-        "kilyakus/yii2-perfect-scrollbar": "dev-master"
+        "kilyakus/yii2-perfect-scrollbar": "dev-master",
+        "kilyakus/yii2-switcher": "dev-master"
     },
     "autoload": {
         "psr-4": {
