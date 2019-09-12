@@ -19,6 +19,7 @@ class BaseAsset extends \yii\web\AssetBundle
         'kilyakus\toastr\ToastrAsset',
         'kilyakus\scrollbar\PerfectScrollbarAsset',
         'kilyakus\switcher\SwitcherAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
     ];
     public $jsOptions = array(
         'position' => \yii\web\View::POS_HEAD
