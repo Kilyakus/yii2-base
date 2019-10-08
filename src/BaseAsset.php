@@ -18,7 +18,6 @@ class BaseAsset extends \yii\web\AssetBundle
         'kilyakus\fonts\FontAsset',
         'kilyakus\toastr\ToastrAsset',
         'kilyakus\scrollbar\PerfectScrollbarAsset',
-        'kilyakus\switcher\SwitcherAsset',
         'yii\bootstrap\BootstrapPluginAsset',
     ];
     public $jsOptions = array(
