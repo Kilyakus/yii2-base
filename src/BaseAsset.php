@@ -10,14 +10,15 @@ class BaseAsset extends \yii\web\AssetBundle
     public $js = [
         'jquery/dist/jquery.js',
         'popper.js/dist/umd/popper.js',
-        'bootstrap/dist/js/bootstrap.min.js',
-        'tooltip.js/dist/umd/tooltip.min.js',
+        'bootstrap/dist/js/bootstrap.js',
+        // 'tooltip.js/dist/umd/tooltip.min.js',
     ];
 
     public $depends = [
         'kilyakus\fonts\FontAsset',
         'kilyakus\toastr\ToastrAsset',
-        'kilyakus\scrollbar\PerfectScrollbarAsset',
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset',
     ];
     public $jsOptions = array(
