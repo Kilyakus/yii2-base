@@ -8,9 +8,9 @@ class BaseAsset extends \yii\web\AssetBundle
         $this->sourcePath = __DIR__ . '/assets';
     }
     public $js = [
-        'jquery/dist/jquery.js',
-        'popper.js/dist/umd/popper.js',
-        'bootstrap/dist/js/bootstrap.js',
+        'jquery/dist/jquery.min.js',
+        'popper.js/dist/umd/popper.min.js',
+        'bootstrap/dist/js/bootstrap.min.js',
         // 'tooltip.js/dist/umd/tooltip.min.js',
     ];
 
